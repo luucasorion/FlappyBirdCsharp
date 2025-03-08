@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BirdCrontoller : MonoBehaviour
+public class BirdController : MonoBehaviour
 {
     public float jumpForce = 5f;
     private Rigidbody2D rb;

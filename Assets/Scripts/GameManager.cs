@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
-
-    public BirdCrontoller bird;
+    AudioManager audioManager;
+    public BirdController bird;
     public Text textoPontuacao;
-    public GameObject botaoPlay;
+    public GameObject PlacaPlay;
     public GameObject gameOver;
 
     private int pontuacao;
@@ -17,13 +17,14 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(false);
         Application.targetFrameRate = 60;
         Pause();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     public void Play()
     {
         pontuacao = 0;
         textoPontuacao.text = pontuacao.ToString();
-        botaoPlay.SetActive(false);
+        PlacaPlay.SetActive(false);
         gameOver.SetActive(false);
         Time.timeScale = 1;
         bird.enabled = true;
@@ -46,8 +47,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOver.SetActive(true);
-        botaoPlay.SetActive(true);
-        
+        PlacaPlay.SetActive(true);
+        audioManager.PlaySFX(audioManager.Paranaramnaram);
         Pause();
     }
 
