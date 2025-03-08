@@ -6,7 +6,7 @@ Este é o meu **primeiro projeto** de jogo utilizando a Unity, basicamente uma i
 
 Você pode jogar a versão do jogo clicando no link abaixo no itch.io
 
-[Flappy Bird Homemade - Clique!](https://luucasorion.itch.io/flappy-bird-homemade)
+[Flappy Bird Homemade :P](https://luucasorion.itch.io/flappy-bird-homemade)
 
 Espero que se divirta! 😄
 
