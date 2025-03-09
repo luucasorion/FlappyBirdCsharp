@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pontuacao
+  - Audio
   layers:
   - Default
   - TransparentFX

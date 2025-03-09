@@ -29,11 +29,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         bird.enabled = true;
         bird.transform.position = posicaoBird;
-        Canos[] canos = FindObjectsOfType<Canos>();
+        NuvensScript[] nuvens = FindObjectsOfType<NuvensScript>();
 
-        for ( int i = 0; i < canos.Length; i++)
+        for ( int i = 0; i < nuvens.Length; i++)
         {
-            Destroy(canos[i].gameObject);
+            Destroy(nuvens[i].gameObject);
         }
     
     }

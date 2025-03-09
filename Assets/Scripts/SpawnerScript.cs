@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnerScript : MonoBehaviour
 {
-    public Canos prefab;
+    public NuvensScript prefab;
     public float intervaloTempo = 1f;
     public float alturaMax = -2f;
     public float alturaMin = 2f;
@@ -23,7 +23,7 @@ public class SpawnerScript : MonoBehaviour
 
     private void Spawn()
     {
-        Canos cano = Instantiate(prefab,prefab.transform.position, Quaternion.identity);
+        NuvensScript cano = Instantiate(prefab,prefab.transform.position, Quaternion.identity);
         cano.transform.position += Vector3.up * Random.Range(alturaMin, alturaMax);
 
     }

@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 1619291168997710580}
   - component: {fileID: 1616641696983778818}
   m_Layer: 0
-  m_Name: Canos
+  m_Name: Nuvens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

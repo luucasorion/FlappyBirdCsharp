@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO.Compression;
 using UnityEngine;
 
-public class Canos : MonoBehaviour
+public class NuvensScript : MonoBehaviour
 {
     public float velocidade = 3f;
     private float bordaEsquerda;
